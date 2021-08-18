@@ -27,7 +27,7 @@ const MainView = () => {
                 </div>
             </div>
             <div className="headerScreenTitle">
-                <h1>Welcome to Poll Simulator</h1>
+                <h1>Poll Simulator Rules</h1>
             </div>
             <div>
                 <h3>Become A candidate :-</h3>
