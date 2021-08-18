@@ -19,16 +19,7 @@ const ElectionResult = () => {
     tempVotes.sort((a, b) => { return b.votes - a.votes });
     return (
         <div>
-            {/* <div className="header">
-                <div className="headerPollSimulator">
-                    <NavLink className="textLink" to="/" >Poll Simulator</NavLink>
-                </div>
-                <div className="headerSub">
-                    <NavLink className="textLink" to="/become-candidate">Become Candidate</NavLink>
-                    <NavLink className="textLink" to="/cast-vote">Cast Vote</NavLink>
-                    <NavLink className="textLink" to="election-result" activeClassName="textLinkActive">Election Result</NavLink>
-                </div>
-            </div> */}
+
             <div className="header">
                 <NavLink className="textLink" to="/" activeClassName="textLinkActive">Poll Simulator</NavLink>
 

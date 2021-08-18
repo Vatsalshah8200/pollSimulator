@@ -16,16 +16,7 @@ const CastVote = () => {
     }
     return (
         <div>
-            {/* <div className="header">
-                <div className="headerPollSimulator">
-                    <NavLink className="textLink" to="/" >Poll Simulator</NavLink>
-                </div>
-                <div className="headerSub">
-                    <NavLink className="textLink" to="/become-candidate" activeClassName="textLinkActive">Become Candidate</NavLink>
-                    <NavLink className="textLink" to="/cast-vote" activeClassName="textLinkActive">Cast Vote</NavLink>
-                    <NavLink className="textLink" to="election-result">Election Result</NavLink>
-                </div>
-            </div> */}
+
             <div className="header">
                 <NavLink className="textLink" to="/" activeClassName="textLinkActive">Poll Simulator</NavLink>
 
